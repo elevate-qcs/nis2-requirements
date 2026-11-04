@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "NIS2 Directive Requirements"
+authors:
+  - name: "Elevate Quality Compliance Solutions LLC"
+    website: "https://elevateqcs.com"
+date-released: 2026-11-04
+license: CC-BY-4.0
+repository-code: "https://github.com/elevate-qcs/nis2-requirements"

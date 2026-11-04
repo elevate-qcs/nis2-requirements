@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Requirement",
+  "type": "object",
+  "required": [
+    "id",
+    "ref",
+    "title",
+    "roles",
+    "summary",
+    "applies_from",
+    "evidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "applies_from": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "string"
+    }
+  }
+}
